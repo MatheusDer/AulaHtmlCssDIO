@@ -2,6 +2,11 @@ body {
   background-color: rgb(178, 189, 202);
 }
 
+.photo {
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
 #title,
 #footer-title,
 .subtitle,
@@ -12,11 +17,23 @@ body {
 .post-title {
   font-size: 16px;
   font-style: italic;
+  margin: 0;
+  margin-bottom: 15px;
 }
 
 .post {
   background-color: rgb(227, 226, 226);
-  padding: 10px;
+  padding: 15px;
   border-bottom: 3px dotted black;
-  margin: 30px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.post p {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.post img {
+  margin-bottom: 15px;
 }
