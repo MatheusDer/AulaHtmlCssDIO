@@ -1,6 +1,9 @@
 body {
   background-color: rgb(178, 189, 202);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .photo {
@@ -44,10 +47,12 @@ a {
   margin: 0;
   margin-bottom: 15px;
   text-transform: capitalize;
+  text-align: justify;
 }
 
 .post img {
   margin-bottom: 15px;
+  width: 100%;
 }
 
 .contacts-list {
