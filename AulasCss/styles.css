@@ -49,3 +49,16 @@ a {
 .post img {
   margin-bottom: 15px;
 }
+
+.contacts-list {
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+.contacts-list li a {
+  text-decoration: none;
+}
+
+.contacts-list li a:hover {
+  color: #1f4a4f;
+}
